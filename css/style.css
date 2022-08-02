@@ -855,8 +855,6 @@ img.box a:hover {
     max-width: 50%;
   }
   .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
   }
   .home .home-info {
     flex: 0 0 100%;
@@ -869,7 +867,6 @@ img.box a:hover {
 }
 
 @media (max-width: 767px) {
-  .home,
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -880,10 +877,6 @@ img.box a:hover {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-  .home .home-img .box {
-    width: 200px;
-    height: 200px;
   }
 }
 @keyframes hamburger_puls {
